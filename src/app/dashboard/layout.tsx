@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import CustomCursor from '../../components/CustomCursor';
 
 export const metadata: Metadata = {
   title: "Dashboard - DPRINT",
@@ -14,7 +13,6 @@ export default function DashboardLayout({
   return (
     <>
       {children}
-      {/* <CustomCursor /> */}
     </>
   );
 } 

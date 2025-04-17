@@ -1,7 +1,6 @@
 'use client';
 
-import { useState } from 'react';
-import { MagnifyingGlassIcon, BellIcon, ArrowDownTrayIcon } from '@heroicons/react/24/outline';
+import { BellIcon, ArrowDownTrayIcon } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
 
 export default function Header() {

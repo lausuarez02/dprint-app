@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "./fonts.css";
-import CustomCursor from '../components/CustomCursor';
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 
@@ -23,7 +22,7 @@ export default function RootLayout({
       </head>
       <body className={inter.variable}>
         {children}
-        {/* <CustomCursor /> */}
+        {/* < /> */}
       </body>
     </html>
   );

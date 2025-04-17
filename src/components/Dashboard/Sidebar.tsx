@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { HomeIcon, FolderIcon, HeartIcon, BookOpenIcon, ArchiveBoxIcon, UsersIcon, ChatBubbleLeftIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline';
+import { HomeIcon, FolderIcon, ChatBubbleLeftIcon } from '@heroicons/react/24/outline';
 
 export default function Sidebar() {
   return (
